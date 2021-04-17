@@ -1,0 +1,41 @@
+Journal- 
+Block 1: 
+  A journal has a volume number, issue number, and issue date. A Journal publishes several Articles, 
+  announces several Events, advertises several Job Listings, and highlights several Student Profiles. 
+
+Article-
+Block 2: 
+  Article has a title, an abstract, content, and several keywords. An article has several article Authors(composite).  
+  An article author has a name, an employer, and an affiliation. An Article cites several References.
+
+Reference-
+Block 3:
+  A Reference has a title, page index, release date, location, source, and several reference authors. 
+  
+Event-
+ Block 4:
+  An event has a start date, end date, a location, a name, a point of contact with a set of contact information(composite),
+  and several event sponsors. An event can be a Conference. A point of Contact has name, address, email, fax number, and telephone number.
+
+Conference-
+Block 5:
+  A conference is an event, and has a coordinator, several guidelines, several topics of interest, several conference paper submission dates, 
+  and has several sets of paper contact information. A conference is attended by several Conference Members. Conference paper submission dates
+  have a type and a calendar date, paper contact information has name, type, address, email, fax number, and telephone number.
+
+Conference Member-
+Block 6:
+  A Conference Member has name, type, affiliation, and country. 
+
+Job Listing-
+Block 7:
+  A Job listing has an open date, a close date, multiple qualifications, a title, a job description, a job salary, 
+  a job status, a job location, a job employer, and a set of contact information. Job Contact information has a name, 
+  an address, an email, a phone number, and a fax number. 
+  
+  
+Student Profile-
+Block 8: 
+  A student profile has a name, city, state, country, backstory, and several degrees. A degree has a degree level, 
+  completion year, and degree type.
+  
