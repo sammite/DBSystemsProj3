@@ -1,12 +1,40 @@
+General Format:
+a.Name of the entity
+b.The nature of the entity (i.e., superclass, subclass, regular, or weak entity), 
+c.name(s) of the entity’s  superclass(es), if applicable,  
+d.name(s) of its subclass(es), if applicable
+e.its attributes
+f.its relationship(s) with other entities, if applicable
+
 Block 1:
 
 Block 2:
 
 Block 3:
 
+# Sam 
 Block 4:
+a. Event
+b. Superclass
+c. N/A
+d. An event can be a conference.
+e. Every Event has a start date(EvStartDate), end date (EvEndDate), name (EvName), several sponsors (EvSponsor),
+    a location (EvLocation), and a point of contact (EvPointOfContact). The point of Contact has a name (PCName),
+    an email (PCEmail), an address (PCAddress), a fax number (PCFax), and a telephone number(PCTel).
+f. Events are announced in a journal. 
 
+# Sam
 Block 5:
+a. Conference
+b. Subclass
+c. Event
+d. N/A
+e. A Conference has a coordinator(Coordinator), several guidelines(Guideline), several topics of interest(Topic),
+   several conference paper submission dates(CPSDate), and has several sets of paper contact information(CPSContInfo).
+   Conference paper submission dates have a type(DateType) and a calendar date(CalDate), 
+   paper contact information has name(CPSName), type(CPSType), address(CPSAddress), email(CPSEmail),
+   fax number(CPSFax), and telephone number(CPSTel).
+f. A Conference is attended by several Conference Members.
 
 Block 6:
 
