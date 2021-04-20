@@ -49,7 +49,7 @@ a.	Conference member
 b.	Regular
 c.	N/A
 d.	N/A
-e.	Name, type, affiliation, country
+e.	ConfMemName, ConfMemtype, ConfMemAff, ConfMemCountry
 f.	Each conference member attends a conference.
 
 #Jeel
@@ -58,8 +58,9 @@ a.	Job listing
 b.	Regular
 c.	N/A
 d.	N/A
-e.	Open date, close date, title, job description, job salary, job status, job location, job employer, job contact information, multiple qualifications
+e.	JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
 f.	Each journal has several job listings. 
+ 
 
 
 # Ren
