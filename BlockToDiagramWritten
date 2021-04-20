@@ -64,7 +64,7 @@ f. A Conference is attended by several Conference Members.
 #Jeel
 Block 6:
 a. ConfMem
-b. Regular
+b. Regular Entity
 c. No superclasses
 d. No subclasses
 e. A Conference Member has a name (ConfMemName), type (ConfMemtype), affiliation (ConfMemAff), country(ConfMemCountry)
@@ -73,7 +73,7 @@ f. Each conference member attends a conference.
 #Jeel
 Block 7:
 a. JobList
-b. Regular
+b. Regular Entity
 c. No superclasses
 d. No subclasses
 e. A Job Listing has an open date(JLOpenDate), a close date(JLCloseDate), a title(JLTitle), a job description(JLDescription), a job salary(JLSalary), a job status(JLStatus), 
