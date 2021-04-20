@@ -30,7 +30,7 @@ Block 3:
 
 A) Reference
 B) Weak Entity
-C) No Super Classes
+C) No Superclasses
 D) No Sub classes
 E) RefTitle, RefPageIndex, RefReleaseDate, RefLocation, RefSource, ReferenceAuthorName.
 F) No other relationships
