@@ -15,9 +15,27 @@ d. N/A
 e. VolNum, IssNum, IssDate
 f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
 
-Block 2:
+#Alex
+Block 2: 
+
+A) Article
+B) Regular Entity
+C) No Super Classes
+D) No Subclasses
+E) ArticleTitle, ArticleAbstract, ArticleContent, ArticleKeywords,ArticleAuthor(Composite)
+	-Article Authors: ArticleAuthorName, an ArticleAuthorEmployer, and an ArticleAuthorAfilliation.
+F) An article cites several references.
 
 Block 3:
+
+A) Reference
+B) Regular Entity
+C) No Super Classes
+D) No Sub classes
+E) RefTitle, RefPageIndex, RefReleaseDate, RefLocation, RefSource, ReferenceAuthorName.
+F) No other relationships
+
+
 
 # Sam 
 Block 4:
@@ -58,8 +76,7 @@ a.	Job listing
 b.	Regular
 c.	N/A
 d.	N/A
-e.	JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. 
-    Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
+e.	JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
 f.	Each journal has several job listings. 
  
 
