@@ -53,5 +53,5 @@ a. StuProfile
 b. Regular
 c. N/A
 d. N/A
-e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued)
+e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegYear, DegType
 f. Journal highlights StuProfile
