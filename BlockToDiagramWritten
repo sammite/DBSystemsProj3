@@ -43,9 +43,24 @@ e. A Conference has a coordinator(Coordinator), several guidelines(Guideline), s
    fax number(CPSFax), and telephone number(CPSTel).
 f. A Conference is attended by several Conference Members.
 
+#Jeel
 Block 6:
+a.	Conference member
+b.	Regular
+c.	N/A
+d.	N/A
+e.	Name, type, affiliation, country
+f.	Each conference member attends a conference.
 
+#Jeel
 Block 7:
+a.	Job listing
+b.	Regular
+c.	N/A
+d.	N/A
+e.	Open date, close date, title, job description, job salary, job status, job location, job employer, job contact information, multiple qualifications
+f.	Each journal has several job listings. 
+
 
 # Ren
 Block 8:
