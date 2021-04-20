@@ -9,9 +9,9 @@ f.its relationship(s) with other entities, if applicable
 # Ren
 Block 1:
 a. Journal
-b. Regular
-c. N/A
-d. N/A
+b. Regular Entity
+c. No Superclasses
+d. No Subclasses
 e. VolNum, IssNum, IssDate
 f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
 
@@ -20,7 +20,7 @@ Block 2:
 
 A) Article
 B) Regular Entity
-C) No Super Classes
+C) No Superclasses
 D) No Subclasses
 E) ArticleTitle, ArticleAbstract, ArticleContent, ArticleKeywords,ArticleAuthor(Composite)
 	-Article Authors: ArticleAuthorName, an ArticleAuthorEmployer, and an ArticleAuthorAfilliation.
@@ -85,8 +85,8 @@ f. Each journal advertises several job listings.
 # Ren
 Block 8:
 a. StuProfile
-b. Regular
-c. N/A
-d. N/A
-e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegYear, DegType
+b. Regular Entity
+c. No Superclasses
+d. No Subclasses
+e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegComplete, DegType
 f. Journal highlights StuProfile
