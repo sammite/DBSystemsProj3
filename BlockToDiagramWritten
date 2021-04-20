@@ -29,7 +29,7 @@ F) An article cites several references.
 Block 3:
 
 A) Reference
-B) Regular Entity
+B) Weak Entity
 C) No Super Classes
 D) No Sub classes
 E) RefTitle, RefPageIndex, RefReleaseDate, RefLocation, RefSource, ReferenceAuthorName.
