@@ -78,7 +78,7 @@ c. N/A
 d. N/A
 e. JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. 
    Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
-f. Each journal has several job listings. 
+f. Each journal advertises several job listings. 
  
 
 
