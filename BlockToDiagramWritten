@@ -53,5 +53,5 @@ a. StuProfile
 b. Regular
 c. N/A
 d. N/A
-e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (MVD)
+e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued)
 f. Journal highlights StuProfile
