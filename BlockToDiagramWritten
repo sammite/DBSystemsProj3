@@ -6,7 +6,14 @@ d.name(s) of its subclass(es), if applicable
 e.its attributes
 f.its relationship(s) with other entities, if applicable
 
+# Ren
 Block 1:
+a. Journal
+b. Regular
+c. N/A
+d. N/A
+e. VolNum, IssNum, IssDate
+f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
 
 Block 2:
 
@@ -40,4 +47,11 @@ Block 6:
 
 Block 7:
 
+# Ren
 Block 8:
+a. StuProfile
+b. Regular
+c. N/A
+d. N/A
+e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (MVD)
+f. Journal highlights StuProfile
