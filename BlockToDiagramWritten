@@ -63,21 +63,22 @@ f. A Conference is attended by several Conference Members.
 
 #Jeel
 Block 6:
-a.	Conference member
-b.	Regular
-c.	N/A
-d.	N/A
-e.	ConfMemName, ConfMemtype, ConfMemAff, ConfMemCountry
-f.	Each conference member attends a conference.
+a. ConfMem
+b. Regular
+c. N/A
+d. N/A
+e. ConfMemName, ConfMemtype, ConfMemAff, ConfMemCountry
+f. Each conference member attends a conference.
 
 #Jeel
 Block 7:
-a.	Job listing
-b.	Regular
-c.	N/A
-d.	N/A
-e.	JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
-f.	Each journal has several job listings. 
+a. JobList
+b. Regular
+c. N/A
+d. N/A
+e. JLOpenDate, JLCloseDate, JLTitle, JLDescription, JLSalary, JLStatus, JLLocation, JLEmployer, JLContactInfo, JLQualifications. 
+   Contact Info has JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax
+f. Each journal has several job listings. 
  
 
 
