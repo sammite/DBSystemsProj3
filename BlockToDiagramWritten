@@ -12,8 +12,8 @@ a. Journal
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. VolNum, IssNum, IssDate
-f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
+e. A journal has a volume number (VolNum), issue number (IssNum), and issue date (IssDate).
+f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile.
 
 #Alex
 Block 2: 
@@ -89,5 +89,6 @@ a. StuProfile
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegComplete, DegType
+e. A student profile has a name (StuName), city (StuCity), state (StuState), country (StuCountry), backstory (StuBackstory), and several degrees (Degree). 
+   A degree has a degree level (DegLevel), completion year (DegComplete), and degree type (DegType).
 f. Journal highlights StuProfile
