@@ -12,8 +12,8 @@ a. Journal
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. A journal has a volume number (VolNum), issue number (IssNum), and issue date (IssDate).
-f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile.
+e. VolNum, IssNum, IssDate
+f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
 
 #Alex
 Block 2: 
@@ -40,8 +40,8 @@ F) No other relationships
 # Sam 
 Block 4:
 a. Event
-b. Superclass
-c. N/A
+b. Superclass of Conference.
+c. Is not a Subclass.
 d. An event can be a conference.
 e. Every Event has a start date(EvStartDate), end date (EvEndDate), name (EvName), several sponsors (EvSponsor),
     a location (EvLocation), and a point of contact (EvPointOfContact). The point of Contact has a name (PCName),
@@ -52,8 +52,8 @@ f. Events are announced in a journal.
 Block 5:
 a. Conference
 b. Subclass
-c. Event
-d. N/A
+c. Has a superclass of Event.
+d. Has no subclasses.
 e. A Conference has a coordinator(Coordinator), several guidelines(Guideline), several topics of interest(Topic),
    several conference paper submission dates(CPSDate), and has several sets of paper contact information(CPSContInfo).
    Conference paper submission dates have a type(DateType) and a calendar date(CalDate), 
@@ -89,6 +89,5 @@ a. StuProfile
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. A student profile has a name (StuName), city (StuCity), state (StuState), country (StuCountry), backstory (StuBackstory), and several degrees (Degree). 
-   A degree has a degree level (DegLevel), completion year (DegComplete), and degree type (DegType).
+e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegComplete, DegType
 f. Journal highlights StuProfile
