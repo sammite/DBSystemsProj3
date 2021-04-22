@@ -14,7 +14,7 @@ Block 3:
   
 Event-
  Block 4:
-  An event has a start date, end date, a location, a name, a point of contact with a set of contact information(composite),
+  An event has an ID, a start date, an end date, a location, a name, a point of contact with a set of contact information(composite),
   and several event sponsors. An event can be a Conference. A point of Contact has name, address, email, fax number, and telephone number.
 
 Conference-
