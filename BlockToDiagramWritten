@@ -43,7 +43,7 @@ a. Event
 b. Superclass of Conference.
 c. Is not a Subclass.
 d. An event can be a conference.
-e. Every Event has a start date(EvStartDate), end date (EvEndDate), name (EvName), several sponsors (EvSponsor),
+e. Every Event has an ID(EventID), a start date(EvStartDate), an end date (EvEndDate), a name (EvName), several sponsors (EvSponsor),
     a location (EvLocation), and a point of contact (EvPointOfContact). The point of Contact has a name (PCName),
     an email (PCEmail), an address (PCAddress), a fax number (PCFax), and a telephone number(PCTel).
 f. Events are announced in a journal. 
