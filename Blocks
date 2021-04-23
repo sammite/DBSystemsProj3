@@ -25,11 +25,11 @@ Block 5:
 
 Conference Member-
 Block 6:
-  A Conference Member has name, type, affiliation, and country. 
+  A Conference Member has an id, name, type, affiliation, and country. 
 
 Job Listing-
 Block 7:
-  A Job listing has an open date, a close date, multiple qualifications, a title, a job description, a job salary, 
+  A Job listing has an id, an open date, a close date, multiple qualifications, a title, a job description, a job salary, 
   a job status, a job location, a job employer, and a set of contact information. Job Contact information has a name, 
   an address, an email, a phone number, and a fax number. 
   
