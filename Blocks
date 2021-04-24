@@ -36,6 +36,6 @@ Block 7:
   
 Student Profile-
 Block 8: 
-  A student profile has a name, city, state, country, backstory, and several degrees. A degree has a degree level, 
+  A student profile has an ID, name, city, state, country, backstory, and several degrees. A degree has a degree level, 
   completion year, and degree type.
   
