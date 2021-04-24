@@ -23,10 +23,10 @@ B) Regular Entity
 C) No Superclasses
 D) No Subclasses
 E) ArticleID, ArticleTitle, ArticleAbstract, ArticleContent, ArticleKeywords,ArticleAuthor(Composite)
-	-Article Authors: ArticleAuthorName, an ArticleAuthorEmployer, and an ArticleAuthorAfilliation.
+	-Article Authors: ArticleAuthorName, an ArticleAuthorEmployer, and an ArticleAuthorAff.
 E*) (Alternate)  Article has a unqiue ID number(ArticleID), title(ArticleTite), an abstract(ArticleAbstract), content(ArticleContent), and several keywords(ArticleKeyword).
 	An article has several article Authors(ArticleAuthor-composite).  
-	-An ArticleAuthor has a name(ArticleAuthorName), an employer(ArticleAuthorEmployer), and an affiliation(ArticleAuthorAffiliation).
+	-An ArticleAuthor has a name(ArticleAuthorName), an employer(ArticleAuthorEmployer), and an affiliation(ArticleAuthorAff).
 F) An article cites several references.
 
 Block 3:
