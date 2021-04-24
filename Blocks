@@ -1,16 +1,16 @@
 Journal- 
 Block 1: 
-  A journal has a volume number, issue number, and issue date. A Journal publishes several Articles, 
+  A journal has an ID, a volume number, issue number, and issue date. A Journal publishes several Articles, 
   announces several Events, advertises several Job Listings, and highlights several Student Profiles. 
 
 Article-
 Block 2: 
-  Article has a title, an abstract, content, and several keywords. An article has several article Authors(composite).  
+  Article has an ID, a title, an abstract, content, and several keywords. An article has several article Authors(composite).  
   An article author has a name, an employer, and an affiliation. An Article cites several References.
 
 Reference-
 Block 3:
-  A Reference has a title, page index, release date, location, source, and several reference authors. 
+  A Reference has an ID, a title, page index, release date, location, source, and several reference authors. 
   
 Event-
  Block 4:
