@@ -83,7 +83,7 @@ c. No superclasses
 d. No subclasses
 e. A Job Listing has an ID (JobListID), an open date(JLOpenDate), a close date(JLCloseDate), a title(JLTitle), a job description(JLDescription), a job salary(JLSalary), a job status(JLStatus), 
    a job location(JLLocation), a job employer(JLEmployer), a set of contact information(JLContactInfo), multiple qualifications(JLQualification). Job Contact Information has 
-   a name(JLCInfoName), an address(JLCInfoAddress), an email(JLCInfoEmail), a phone number(JLCInfoPhone), a fax number(JLCInfoFax)
+   a name(JLCInfoName), an address(JLCInfoAdd), an email(JLCInfoEmail), a phone number(JLCInfoPhone), a fax number(JLCInfoFax)
 f. Each journal advertises several job listings. 
  
 
