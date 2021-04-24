@@ -13,7 +13,7 @@ CPSDate((U)EventID, (U)DateType, (U)CalDate))
 CPSContInfo((U)EventID, (U)CPSName, (U)CPSEmail, (U)CPSAddress, (U)CPSFax, (U)CPSTel, (U)CPSType)
 ConfMem((U)ConfMemID, EventID, ConfMemName, ConfMemType, ConfMemAff, ConfMemCountry)
 JobList((U)JobListID, VolNum, IssNum, JLOpenDate, JLCloseDate, JLTitle, JLEmployer, JLLocation, JLStatus, JLSalary, 
-          JLDescription, JLCInfoName, JLCInfoAdd, JLCInfoEmail, JLCInfoPhone, JLCInfoFax)
+          JLDescription, JLCInfoName, JLCInfoAddress, JLCInfoEmail, JLCInfoPhone, JLCInfoFax)
 Qualification((U)JobListID, (U)JLQualification)
 StuProfile((U)StuID, VolNum, IssNum, StuName, StuCity, StuState, StuCountry, StuBackstory)
 Degree((U)StuID, (U)DegType, (U)DegComplete, (U)DegLevel)
