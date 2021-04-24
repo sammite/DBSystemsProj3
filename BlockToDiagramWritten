@@ -22,8 +22,11 @@ A) Article
 B) Regular Entity
 C) No Superclasses
 D) No Subclasses
-E) ArticleTitle, ArticleAbstract, ArticleContent, ArticleKeywords,ArticleAuthor(Composite)
+E) ArticleID, ArticleTitle, ArticleAbstract, ArticleContent, ArticleKeywords,ArticleAuthor(Composite)
 	-Article Authors: ArticleAuthorName, an ArticleAuthorEmployer, and an ArticleAuthorAfilliation.
+E*) (Alternate)  Article has a unqiue ID number(ArticleID), title(ArticleTite), an abstract(ArticleAbstract), content(ArticleContent), and several keywords(ArticleKeyword).
+	An article has several article Authors(ArticleAuthor-composite).  
+	-An ArticleAuthor has a name(ArticleAuthorName), an employer(ArticleAuthorEmployer), and an affiliation(ArticleAuthorAffiliation).
 F) An article cites several references.
 
 Block 3:
@@ -32,7 +35,9 @@ A) Reference
 B) Weak Entity
 C) No Superclasses
 D) No Sub classes
-E) RefTitle, RefPageIndex, RefReleaseDate, RefLocation, RefSource, ReferenceAuthorName.
+E) RefID, RefTitle, RefPageIndex, RefReleaseDate, RefLocation, RefSource, ReferenceAuthorName.
+E*) (Alternate) A Reference has a title(RefTitle), unique ID number(RefID), a page index(RefPageIndex), 
+	release date(RefReleaseDate), location(RefLocation), source(RefSource), and several reference author names(RefAuthorName). 
 F) No other relationships
 
 
