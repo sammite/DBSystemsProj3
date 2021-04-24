@@ -12,7 +12,7 @@ a. Journal
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. VolNum, IssNum, IssDate
+e. A journal has a volume number (VolNum), issue number (IssNum), and issue date (IssDate).
 f. Journal publishes Article, announces Event, advertises JobList, and highlights StuProfile
 
 #Alex
