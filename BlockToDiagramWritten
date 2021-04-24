@@ -89,5 +89,6 @@ a. StuProfile
 b. Regular Entity
 c. No Superclasses
 d. No Subclasses
-e. StuName, StuCity, StuState, StuCountry, StuBackstory, Degree (multivalued), DegLevel, DegComplete, DegType
+e. A student profile has an ID (StuID), name (StuName), city (StuCity), state (StuState), country (StuCountry), backstory (StuBackstory), and several degrees (Degree).
+A degree has a degree level (DegLevel), completion year (DegComplete), and degree type (DegType).
 f. Journal highlights StuProfile
