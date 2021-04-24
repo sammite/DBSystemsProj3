@@ -1,6 +1,6 @@
 Journal- 
 Block 1: 
-  A journal has an ID, a volume number, issue number, and issue date. A Journal publishes several Articles, 
+  A journal has a volume number, issue number, and issue date. A Journal publishes several Articles, 
   announces several Events, advertises several Job Listings, and highlights several Student Profiles. 
 
 Article-
